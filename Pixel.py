@@ -15,9 +15,9 @@ class Pixel:
 		return bytearray([self.red, self.green, self.blue])
 
 	def get_color(self, color):
-		if self.color == "red":
+		if color == "red":
 			return self.red
-		if self.color == "green":
+		if color == "green":
 			return self.green
 		return self.blue
 
@@ -30,9 +30,9 @@ class Pixel:
 		self.blue = blue
 
 	def set_color(self, color, value):
-		if self.color == "red":
+		if color == "red":
 			self.red = value
-		if self.color == "green":
+		if color == "green":
 			self.green = value
-		if self.color == "blue":
+		if color == "blue":
 			self.blue =  value

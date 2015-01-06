@@ -1,7 +1,7 @@
 import time, random
 class Xmas_1:
         '''
-        Xmas_1
+        Xmas_1. Alternating red and green down the wire. They move down the wire.
         '''
 
         def __init__(self):
@@ -27,7 +27,7 @@ class Xmas_1:
                 
                 time.sleep(1)
                 
-                if random.randrange(0,10) == 0:
+                if random.randrange(0, 120) == 0:
                         self.initialize = True
                         return False
                 return True
